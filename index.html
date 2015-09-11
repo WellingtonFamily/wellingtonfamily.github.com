@@ -22,7 +22,17 @@ title: Mainpage
     		  </li>
     		{% endfor %}
     		</ul>
-    	</div>
+    		<ul class="entries">
+    		{% for page in site.events %}
+    		{% if page.featured == 'true' %}
+    		  <li>
+    		    <a href="{{ page.url }}">
+    		        <h3>{{ page.title }}</h3>
+    		    </a>
+    		  </li>
+    		{% endif %} 
+    		{% endfor %}
+    		</ul>    	</div>
       
       <div id="post-pagination">
         {% if paginator.previous_page %}
