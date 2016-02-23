@@ -19,9 +19,3 @@ collections:
       values:
         layout: event
   
-  pages:
-    output: true
-    permalink: /:path/
-    defaults:
-      values:
-        layout: post_page
