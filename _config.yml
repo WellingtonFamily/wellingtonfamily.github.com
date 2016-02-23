@@ -7,10 +7,14 @@ exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scs
 
 timezone: America/Los_Angeles
 
+gems:
+  - jekyll-paginate
+  
+
 collections:
   events:
     output: true
-    permalink: /:path/
+    permalink: /events/:path/
     defaults:
       values:
         layout: event
