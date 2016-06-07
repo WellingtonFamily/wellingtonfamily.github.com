@@ -18,4 +18,15 @@ collections:
     defaults:
       values:
         layout: event
-  
+  maria:
+    output: true
+#    permalink: /maria/:path/
+    defaults:
+      values:
+        layout: post_page  
+  tori:
+    output: true
+#    permalink: /tori/:path/
+    defaults:
+      values:
+        layout: post_page  
