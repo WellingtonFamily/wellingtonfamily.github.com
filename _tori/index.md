@@ -1,5 +1,5 @@
 ---
-layout: post_page
+layout: listing
 title: "Tori"
 ---
 

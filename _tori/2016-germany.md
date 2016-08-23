@@ -1,6 +1,8 @@
 ---
 layout: travel
 title: "Germany"
+summary: "visiting our cousins"
+date: 2016-08-02
 ---
 
 ### Anne and Carsten's -- Near Köln
