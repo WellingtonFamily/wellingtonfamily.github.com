@@ -4,27 +4,53 @@ title: "Iceland"
 date: 2016-08-01
 ---
 
-### Day 1
+
 
 <img src="{{ site.assets }}images/2016-08-07%2006.24.09-1.jpg" />
-- We arrived at Keflavik Airport, we got off the airplane at 6:00 AM and walked down the stairs on the plane and took a bus to the main terminal
+We arrived at Keflavik Airport, we got off the airplane at 6:00 AM and walked down the stairs on the plane and took a bus to the main terminal
 
-#### INSERT IMAGE OF PLANE
+----
+
 <img src="{{ site.assets }}images/L1018240.jpg" />
-- we got to our hotel - our room was not ready yet, so we went for a walk on the pier
+We got to our hotel - our room was not ready yet, so we went for a walk on the pier
 
-- We saw a crazy green hill
+----
 
-#### Images form pier here
+<img src="{{ site.assets }}images/L1018263.jpg" />
+We watched the workers paint this ship.
 
-- we went swimming at a pool that was heated by lava.  There was a twisty slide and straight slide.  there were also floating islands like lilly pads that you can jump on to walk arcoss the pool
+----
 
-blue lagoon
-really warm
-healing power
-mud on your face
-and green mud was only for old people
+<img src="{{ site.assets }}images/L1018269.jpg" />
+We went swimming in the Blue Lagoon, the water was really warm and it had healing power.  There was mud you could put on your face.
 
-we had fun
-we had fun adventures around Reykjavic
-we loved the breakfast
+----
+
+<img src="{{ site.assets }}images/L1018275.jpg" />
+Playing with Momma's glasses
+
+----
+
+<img src="{{ site.assets }}images/L1018296.jpg" />
+
+----
+
+<img src="{{ site.assets }}images/L1018307.jpg" />
+The next day, Dada took us on a walk to the other side of the harbor
+
+----
+
+<img src="{{ site.assets }}images/L1018297.jpg" />
+Lighthouse near the Harpa
+
+----
+
+There was a super fun green hill called Þúfa (Thufa).  Maria and I played on it for a long time.
+<img src="{{ site.assets }}images/L1018329.jpg" />
+
+<img src="{{ site.assets }}images/L1018347.jpg" />
+
+----
+
+<img src="{{ site.assets }}images/L1018334.jpg" />
+This is Harpa, it's where they play music
