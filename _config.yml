@@ -9,7 +9,8 @@ timezone: America/Los_Angeles
 
 gems:
   - jekyll-paginate
-  
+
+assets: http://assets.wellingtonfamily.net.s3-website-us-west-2.amazonaws.com/
 
 collections:
   events:
@@ -18,4 +19,17 @@ collections:
     defaults:
       values:
         layout: event
-  
+  maria:
+    output: true
+#    permalink: /maria/:path/
+    defaults:
+      values:
+        layout: post_page  
+  tori:
+    output: true
+#    permalink: /tori/:path/
+    defaults:
+      values:
+        layout: post_page  
+
+
