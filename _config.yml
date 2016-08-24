@@ -1,35 +1,34 @@
-# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
-
-#auto: true # automatically update your jekyll
-#server: true # runs a local server
-paginate: 10 # pagination basted on number of posts
-exclude: ["Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss'] # files to exclude
-
-timezone: America/Los_Angeles
-
-gems:
-  - jekyll-paginate
+# Site settings
+title: WellingtonFamily
+email: 
+description: > # this means to ignore newlines until "baseurl:"
+  A place to call home...
+baseurl:  # the subpath of your site, e.g. /blog/
+url:  # the base hostname & protocol for your site
+#twitter_username: twitter_username
+#github_username:  github_username
 
 assets: http://assets.wellingtonfamily.net.s3-website-us-west-2.amazonaws.com/
 
+# Build settings
+markdown: kramdown
+
+#highlighter: pygments
+
+# Pagination
+paginate: 15
+paginate_path: "/blog/page:num/"
+
+
 collections:
-  events:
+  portfolio:
     output: true
-    permalink: /events/:path/
-    defaults:
-      values:
-        layout: event
-  maria:
+    permalink: /portfolio/:path/
+  poetry:
     output: true
-#    permalink: /maria/:path/
-    defaults:
-      values:
-        layout: post_page  
+    permalink: /poetry/:path/
   tori:
     output: true
-#    permalink: /tori/:path/
-    defaults:
-      values:
-        layout: post_page  
+    permalink: /tori/:path/
 
-
+gems: [jekyll-paginate]
