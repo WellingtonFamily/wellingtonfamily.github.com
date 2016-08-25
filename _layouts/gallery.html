@@ -11,7 +11,9 @@ layout: default
   <article class="post-content">
     {% for image in page.images %}  
       {% capture image_placeholder %}
+      <a href="{{ site.assets }}{{ image.image_path }}">
       <img class="col one" src="{{ site.assets }}{{ image.image_path }}" alt="{{ image.caption }}" />
+      </a>
       {% endcapture %}
       {% assign loopindex = forloop.index | modulo: 3 %}
       {% if loopindex == 1 %}
