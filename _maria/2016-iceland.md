@@ -1,4 +1,4 @@
 ---
-layout: travel
+layout: page
 title: "Iceland"
 ---
