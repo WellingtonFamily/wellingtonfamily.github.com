@@ -2,6 +2,7 @@
 layout: page
 permalink: /tori/
 title: Tori
+nav: false
 ---
 
 {% for project in site.tori %}
