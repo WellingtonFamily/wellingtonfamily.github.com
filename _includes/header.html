@@ -10,7 +10,9 @@
 
         {% for page in site.pages %}
           {% if page.title %}
+            {% unless page.nav == false %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | downcase }}</a>
+            {% endunless %}
           {% endif %}
         {% endfor %}
 

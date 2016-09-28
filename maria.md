@@ -2,6 +2,7 @@
 layout: page
 permalink: /maria/
 title: Maria
+nav: false
 ---
 
 {% for project in site.maria %}
