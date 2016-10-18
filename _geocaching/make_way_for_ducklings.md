@@ -3,7 +3,7 @@ layout: page
 title: "Make Way for Ducklings"
 ---
 
-In 2002, The [Make Way for Ducklings](https://www.geocaching.com/seek/cache_details.aspx?guid=1ac81bdb-dc49-409b-ab1c-4b25a1cf04c0) cache served as a launching point for 16 travel ducks whose mission it was to travel the world.  I would love it if each of these ducks were able to make it to the Seattle area... though I know that some of them are likely lost forever.
+In 2002, The [Make Way for Ducklings](https://www.geocaching.com/geocache/GC4399_make-way-for-ducklings) geocache served as a launching point for 16 travel ducks whose mission it was to travel the world.  I would love it if each of these ducks were able to make it to the Seattle area... though I know that some of them are likely lost forever.
 
 - [Jack](https://www.geocaching.com/track/details.aspx?id=8348)
 - [Kack](https://www.geocaching.com/track/details.aspx?id=11193)
