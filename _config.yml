@@ -29,4 +29,9 @@ collections:
     output: true
     permalink: /tori/:path/
 
+  geocaching:
+    output: true
+    permalink: /geocaching/:path/
+
+
 gems: [jekyll-paginate]
