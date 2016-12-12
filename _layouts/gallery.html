@@ -11,7 +11,7 @@ layout: default
   <article class="post-content">
     {% for image in page.images %}  
       {% capture image_placeholder %}
-      <a href="{{ site.assets }}{{ image.image_path }}">
+      <a href="{{ site.assets }}{{ image.image_path }}" data-lightbox="gallery" data-title="{{ image.caption }}">
       <img class="col one" src="{{ site.assets }}{{ image.image_path }}" alt="{{ image.caption }}" />
       </a>
       {% endcapture %}
@@ -31,3 +31,5 @@ layout: default
   </article>
 
 </div>
+
+<script src="{{ site.baseurl }}/js/lightbox-plus-jquery.js"></script>
