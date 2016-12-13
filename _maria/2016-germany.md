@@ -2,7 +2,7 @@
 layout: gallery
 title: "Germany"
 date: 2016-08-19 10:23:17
-img: '/images/L1018371.jpg'
+img: '/images/0003-L1018360.jpg'
 description: "visiting our cousins"
 
 images:
