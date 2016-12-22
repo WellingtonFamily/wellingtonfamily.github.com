@@ -1,6 +1,6 @@
 # Site settings
 title: WellingtonFamily
-email: 
+email:
 description: > # this means to ignore newlines until "baseurl:"
   A place to call home...
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -15,9 +15,9 @@ markdown: kramdown
 
 #highlighter: pygments
 
-# Pagination
-paginate: 15
-paginate_path: "/blog/page:num/"
+# Pagination - turned off for now, not being used
+# paginate: 15
+# paginate_path: "/blog/page:num/"
 
 
 collections:
