@@ -1,3 +1,6 @@
+# robots.txt for http://www.wellingtonfamily.net
+
 User-agent: *
-Disallow: /tori
-Disallow: /maria
+Disallow: /temp
+# Disallow: /tori
+# Disallow: /maria

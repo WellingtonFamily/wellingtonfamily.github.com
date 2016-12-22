@@ -33,5 +33,9 @@ collections:
     output: true
     permalink: /geocaching/:path/
 
+  temp:
+    output: true
+    permalink: /temp/:path/
+
 
 gems: [jekyll-paginate]
