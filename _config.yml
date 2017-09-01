@@ -38,4 +38,4 @@ collections:
     permalink: /temp/:path/
 
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
