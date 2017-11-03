@@ -31,6 +31,12 @@ collections:
   geocaching:
     output: true
     permalink: /geocaching/:path/
+  cameras:
+    output: true
+    permalink: /bill/cameras/:path/
+  temp:
+    output: true
+    permalink: /temp/:path/
   knives:
     output: true
     permalink: /bill/knives/:path/
@@ -42,6 +48,12 @@ defaults:
   - scope:
       path: ""
       type: ""
+    values:
+      layout: "page"
+
+  - scope:
+      path: ""
+      type: "cameras"
     values:
       layout: "page"
 
