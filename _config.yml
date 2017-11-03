@@ -19,23 +19,35 @@ markdown: kramdown
 # paginate: 15
 # paginate_path: "/blog/page:num/"
 
+plugins: [jekyll-paginate]
 
 collections:
   maria:
     output: true
     permalink: /maria/:path/
-
   tori:
     output: true
     permalink: /tori/:path/
-
   geocaching:
     output: true
     permalink: /geocaching/:path/
-
+  knives:
+    output: true
+    permalink: /bill/knives/:path/
   temp:
     output: true
     permalink: /temp/:path/
 
+defaults:
+  - scope:
+      path: ""
+      type: ""
+    values:
+      layout: "page"
 
-plugins: [jekyll-paginate]
+  - scope:
+      path: ""
+      type: "knives"
+    values:
+      layout: "page"
+

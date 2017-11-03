@@ -15,7 +15,7 @@ nav: false
         <img class="thumbnail" src="{{ site.assets}}{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
@@ -33,7 +33,7 @@ nav: false
         <img class="thumbnail" src="{{ site.assets}}{{ project.img }}"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
-        {% endif %}    
+        {% endif %}
         <span>
             <h1>{{ project.title }}</h1>
             <br/>
