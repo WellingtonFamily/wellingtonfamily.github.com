@@ -5,7 +5,7 @@ title: Home
 nav: false
 ---
 
-## School Links
+### School Links
 
 - [Seattle Schools](https://www.seattleschools.org)
 - [Arbor Heights](https://arborheightses.seattleschools.org)
