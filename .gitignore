@@ -4,3 +4,4 @@ _site
 Thumbs.db
 .ruby-version
 Gemfile.lock
+/.jekyll-cache

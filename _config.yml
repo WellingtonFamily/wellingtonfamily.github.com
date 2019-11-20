@@ -21,6 +21,10 @@ markdown: kramdown
 
 plugins: [jekyll-paginate]
 
+exclude:
+  - '*.bbprojectd'
+  
+  
 collections:
   maria:
     output: true
