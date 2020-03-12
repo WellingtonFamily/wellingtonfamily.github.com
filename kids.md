@@ -15,3 +15,6 @@ nav: false
 
 - [Advent Calendar](https://cotswold.jacquielawson.com)
 - [Prodigy](https://play.prodigygame.com)
+- [Bill Nye the Science Guy](https://billnye.com/the-science-guy
+)
+- [National Geographic Kids](https://kids.nationalgeographic.com)
