@@ -12,6 +12,8 @@ assets: http://assets.wellingtonfamily.net.s3-website-us-west-2.amazonaws.com
 
 # Build settings
 markdown: kramdown
+exclude: [ netlify.toml, README.md, TODO.md, '*.bbprojectd' ]
+include: [ _redirects ]
 
 #highlighter: pygments
 
@@ -21,17 +23,14 @@ markdown: kramdown
 
 plugins: [jekyll-paginate]
 
-exclude:
-  - '*.bbprojectd'
-  
   
 collections:
   maria:
     output: true
     permalink: /maria/:path/
-  tori:
+  victoria:
     output: true
-    permalink: /tori/:path/
+    permalink: /victoria/:path/
   geocaching:
     output: true
     permalink: /geocaching/:path/

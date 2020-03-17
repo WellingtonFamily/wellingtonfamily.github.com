@@ -1,0 +1,12 @@
+# Redirect default Netlify subdomain to primary domain
+https://wellingtonfamily.netlify.com/*      https://www.wellingtonfamily.net/:splat       301!
+
+# Rewrites (status code 200)
+
+# Internal Redirects (status code 301 permanent)
+/tori/*						/victoria/:splat								301!
+
+# External Redirects (status code 301 permanent)
+
+
+
