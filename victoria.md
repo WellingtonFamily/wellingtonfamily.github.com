@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /victoria/
-title: Tori
+title: Victoria
 nav: false
 ---
 
