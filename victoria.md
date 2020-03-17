@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /tori/
+permalink: /victoria/
 title: Tori
 nav: false
 ---
 
-{% for project in site.tori %}
+{% for project in site.victoria %}
 
 {% if project.redirect %}
 <div class="project">
@@ -26,7 +26,7 @@ nav: false
 </div>
 {% else %}
 
-<div class="project">
+<div class="project"> 
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}

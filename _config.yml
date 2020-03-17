@@ -37,9 +37,6 @@ collections:
   cameras:
     output: true
     permalink: /bill/cameras/:path/
-  temp:
-    output: true
-    permalink: /temp/:path/
   knives:
     output: true
     permalink: /bill/knives/:path/
