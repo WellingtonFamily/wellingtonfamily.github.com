@@ -8,7 +8,7 @@ public_folder: "/media/uploads"
 collections:
     - name: "maria"
       label: "Maria"
-      folder: "_posts"
+      folder: "_maria"
       create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       preview_path: /news/{{slug}}
@@ -20,7 +20,7 @@ collections:
 
     - name: "victoria"
       label: "Victoria"
-      folder: "_posts"
+      folder: "_victoria"
       create: true
       slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
       preview_path: /news/{{slug}}
