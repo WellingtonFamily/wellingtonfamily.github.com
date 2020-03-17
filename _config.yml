@@ -53,6 +53,18 @@ defaults:
 
   - scope:
       path: ""
+      type: "maria"
+    values:
+      layout: "page"
+
+  - scope:
+      path: ""
+      type: "victoria"
+    values:
+      layout: "page"
+
+  - scope:
+      path: ""
       type: "cameras"
     values:
       layout: "page"
