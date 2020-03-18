@@ -5,44 +5,24 @@ title: Victoria
 nav: false
 ---
 
-{% for project in site.victoria %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.thumbnail %}
-        <img class="thumbnail" src="{{ site.assets }}{{ project.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-{% else %}
+{% for i in site.victoria %}
 
 <div class="project"> 
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
-        {% if project.thumbnail %}
-        <img class="thumbnail" src="{{ site.assets }}{{ project.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
+        <a href="{{ i.url }}">
+        {% if i.thumbnail %}
+        <img class="thumbnail" src="{{ site.assets }}{{ i.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
         <span>
-            <h1>{{ project.title }}</h1>
+            <h1>{{ i.title }}</h1>
             <br/>
-            <p>{{ project.description }}</p>
+            <p>{{ i.description }}</p>
         </span>
         </a>
     </div>
 </div>
 
-{% endif %}
 
 {% endfor %}
