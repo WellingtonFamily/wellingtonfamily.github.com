@@ -32,9 +32,18 @@ collections:
         - label: "Featured Image"
           name: "thumbnail"
           widget: "image"
-          default: "/uploads/victoria"
+          default: "/uploads/"
           media_library:
             config:
               multiple: true
+          required: false
+        - label: "Video or other Files"
+          name: "file"
+          widget: "file"
+          default: "/uploads/"
+          media_library:
+            config:
+              multiple: true
+          required: false
 
 
