@@ -27,18 +27,18 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Author", name: "author", widget: "string", required: false}
-        - label: "Featured Image"
+        - {label: "Body", name: "body", widget: "markdown"}
+        - label: "Thumbnail Image"
           name: "thumbnail"
-          widget: "image"
+          widget: "file"
           default: "/uploads/"
           media_library:
             config:
               multiple: true
           required: false
         - label: "Video or other Files"
-          name: "file"
+          name: "linked-file"
           widget: "file"
           default: "/uploads/"
           media_library:
