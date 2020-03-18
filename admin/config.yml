@@ -37,15 +37,7 @@ collections:
             config:
               multiple: true
           required: false
-        - label: "Full Size Image"
-          name: "thumbnail"
-          widget: "image"
-          default: 
-          media_library:
-            config:
-              multiple: true
-          required: false
-        - label: "Video or other Files"
+        - label: "Full Size Image, Video, or other Files"
           name: "linked-file"
           widget: "file"
           default: 
