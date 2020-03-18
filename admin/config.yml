@@ -29,6 +29,12 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Author", name: "author", widget: "string", required: false}
-
+        - label: "Featured Image"
+          name: "thumbnail"
+          widget: "image"
+          default: "/uploads/victoria"
+          media_library:
+            config:
+              multiple: true
 
 
