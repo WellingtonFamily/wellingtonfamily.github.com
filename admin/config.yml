@@ -29,9 +29,9 @@ collections:
         - {label: "Publish Date", name: "date", widget: "datetime"}
         - {label: "Author", name: "author", widget: "string", required: false}
         - {label: "Body", name: "body", widget: "markdown"}
-        - label: "Thumbnail Image"
+        - label: "Thumbnail Image (for index page)"
           name: "thumbnail"
-          widget: "image"
+          widget: "file"
           default: 
           media_library:
             config:
