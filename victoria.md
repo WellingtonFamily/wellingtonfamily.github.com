@@ -12,7 +12,7 @@ nav: false
     <div class="thumbnail">
         <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
-        <img class="thumbnail" src="{{ site.assets}}{{ project.img }}"/>
+        <img class="thumbnail" src="{{ site.assets }}{{ project.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
@@ -30,7 +30,7 @@ nav: false
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}
-        <img class="thumbnail" src="{{ site.assets}}{{ project.img }}"/>
+        <img class="thumbnail" src="{{ site.assets }}{{ project.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
