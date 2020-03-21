@@ -27,14 +27,23 @@ collections:
       fields:
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Publish Date", name: "date", widget: "datetime"}
-        - {label: "Body", name: "body", widget: "markdown"}
         - {label: "Author", name: "author", widget: "string", required: false}
-        - label: "Featured Image"
+        - {label: "Body", name: "body", widget: "markdown"}
+        - label: "Thumbnail Image (for index page)"
           name: "thumbnail"
-          widget: "image"
-          default: "/uploads/victoria"
+          widget: "file"
+          default: 
           media_library:
             config:
               multiple: true
+          required: false
+        - label: "Full Size Image, Video, or other Files"
+          name: "linked-file"
+          widget: "file"
+          default: 
+          media_library:
+            config:
+              multiple: true
+          required: false
 
 
