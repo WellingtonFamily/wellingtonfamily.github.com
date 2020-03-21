@@ -11,7 +11,7 @@ nav: false
     <div class="thumbnail">
         <a href="{{ i.url }}">
         {% if i.thumbnail %}
-        <img class="thumbnail" src="{{ i.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
+        <img  src="{{ i.thumbnail }}?nf_resize=smartcrop&w=250&h=250"/>
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}
