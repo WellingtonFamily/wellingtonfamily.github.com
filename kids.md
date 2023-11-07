@@ -18,3 +18,5 @@ nav: false
 - [Bill Nye the Science Guy](https://billnye.com/the-science-guy
 )
 - [National Geographic Kids](https://kids.nationalgeographic.com)
+- [Kahn Academy](https://www.kahnacademy.com)
+- [IXL](https://www.ixl.com)
